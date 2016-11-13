@@ -1,0 +1,22 @@
+// ConsoleApplication_struct.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include <conio.h>
+#include <stdlib.h>
+
+using namespace std;
+
+struct Cats
+{
+	char name[255];
+	float age;
+	char color[255];
+	char fluffy[255];
+	char self_concept[255];
+	char toy[255];
+	char horror[255];
+	char valerian[255];
+	float voice;
+};
